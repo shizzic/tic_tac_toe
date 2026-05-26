@@ -10,7 +10,7 @@ Make sure you have Ruby installed, then clone the repo:
 git clone git@github.com:shizzic/tic_tac_toe.git
 cd tic_tac_toe
 bundle install
-ruby tic_tac_toe.rb
+ruby tic_tac_toe.rb --without development
 ```
 
 Two players take turns entering a position (1-9) to place their mark on the board. First to get three in a row wins!
